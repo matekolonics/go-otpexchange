@@ -18,7 +18,7 @@ const (
 	GBP CURRENCY = "GBP"
 )
 
-func convert(from, to CURRENCY, amount float64) (buy float64, sell float64) {
+func Convert(from, to CURRENCY, amount float64) (buy float64, sell float64) {
 	data, err := json.Marshal(map[string]string{
 		"exchangeType":   "FOREIGN_EXCHANGE",
 		"baseAmount":     fmt.Sprintf("%f", amount),
