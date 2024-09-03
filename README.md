@@ -8,7 +8,7 @@ Exchange rates API for Hungarian bank OTP written in Go.
 Let's convert 10 EUR to HUF.
 ### Import the package:
 ```
-import "github.com/mattee12/go-otpexchange"
+import "github.com/matekolonics/go-otpexchange"
 ```
 ### Then, convert like this:
 ```
